@@ -1,0 +1,14 @@
+SERVER:
+    NAME: "Feliz Example Server"
+    HOST: "0.0.0.0"
+    PORT: 5062
+    DEBUG: True
+    WORKERS: 4
+CORS:
+    CORS_ENABLE: True
+DB:
+    DB_ENABLE: True
+    INI_FILE: "/private/database.ini"
+API:
+    API_ENABLE: True
+    API_FILE: "/public/server_api.yaml"
