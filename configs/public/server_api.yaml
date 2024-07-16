@@ -1,10 +1,11 @@
 test:
   example:
-    Description: "get example api"
-    Authentication: False
-    Permission: [""]
-    Mandatory: ["start_time"]
-    Optionals: ["end_time"]
-    OptionalDefaults: [""]
-    InputInspect: True
-    InputType: {"start_time": str, "end_time": str}
+    GET:
+      Description: "get example api"
+      Authentication: False
+      Permission: [""]
+      Mandatory: ["start_time"]
+      Optionals: ["end_time"]
+      OptionalDefaults: [""]
+      InputInspect: True
+      InputType: {"start_time": str, "end_time": str}
